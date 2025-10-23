@@ -1,4 +1,4 @@
-apiVersion: backstage.io/v1beta2
+apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 # some metadata about the template itself
 metadata:
@@ -8,7 +8,7 @@ metadata:
   annotations:
     backstage.io/time-saved: PT4H
 spec:
-  owner: backstage/techdocs-core
+  owner: user:guest
   type: service
 
   # these are the steps which are rendered in the frontend with the form input
